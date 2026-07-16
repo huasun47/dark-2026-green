@@ -1,0 +1,50 @@
+{
+  "name": "dark-2026-green",
+  "displayName": "Dark 2026 Green",
+  "description": "Dark 2026 with a luminance-matched green accent.",
+  "version": "0.0.2",
+  "publisher": "huasun47",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#191A1B",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.113.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "green",
+    "dark 2026",
+    "color-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huasun47/dark-2026-green.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark 2026 Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-2026-green-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "bun scripts/build.ts",
+    "verify": "bun scripts/verify.ts",
+    "test": "bun test scripts/color.test.ts",
+    "package": "bunx vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@vscode/vsce": "^3.9.2",
+    "jsonc-parser": "^3.3.1"
+  }
+}

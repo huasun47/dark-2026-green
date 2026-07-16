@@ -1,0 +1,6 @@
+# 仓库内一律存 LF，避免 Windows 检出后整片文件显示为改动。
+* text=auto eol=lf
+
+# 二进制文件不做行尾符转换，否则会损坏内容
+*.png binary
+*.vsix binary

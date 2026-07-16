@@ -1,0 +1,22 @@
+# 只有 themes/、icon.png、README、CHANGELOG、LICENSE、package.json 需要进包。
+# 构建脚本和中间产物保留在仓库里，但不随扩展分发。
+
+node_modules/**
+scripts/**
+baseline.json
+
+# 截图用的展示文件与图片：留在仓库里方便以后重拍，但不进包。
+# README 引用截图走的是 GitHub 绝对 URL（Marketplace 不认相对路径），所以图不必随包分发。
+examples/**
+images/**
+
+bun.lock
+tsconfig.json
+.gitignore
+.vscodeignore
+
+# 源码映射与编辑器杂物
+**/*.map
+**/*.ts
+**/.DS_Store
+.vscode/**
