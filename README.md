@@ -10,11 +10,11 @@ Same light, different hue. That is the whole idea.
 
 ## Screenshot
 
-![Dark 2026 Green — the rotate() function from scripts/color.ts, showing untouched Dark 2026 syntax highlighting alongside the green occurrence highlight](https://raw.githubusercontent.com/huasun47/dark-2026-green/main/images/screenshot.png)
+![Dark 2026 Green — a selection in the theme's own colour code, showing the green selection highlight against Dark 2026's untouched syntax colours](https://raw.githubusercontent.com/huasun47/dark-2026-green/main/images/screenshot.png)
 
-The green blocks behind `relativeLuminance` are `editor.wordHighlightBackground` — one of
-the 61 rotated UI colours. Everything with syntax colour on it (`const` red, strings blue,
-types teal) is Dark 2026 untouched. That contrast *is* the theme.
+The green behind the selected lines is `editor.selectionBackground` — one of the 61 rotated
+UI colours. Everything carrying syntax colour (`const` red, strings blue, types teal) is
+Dark 2026, untouched. That contrast is the whole point.
 
 ---
 
