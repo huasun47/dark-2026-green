@@ -5,7 +5,17 @@ All notable changes to Dark 2026 Green are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.0.2] - Unreleased
+## [0.0.3] - 2026-07-17
+
+### Changed
+
+- README now carries two real screenshots instead of a placeholder: a selection in the
+  theme's own colour code (`editor.selectionBackground`, 54% saturation) and the full
+  workbench (`button.background` at 60%, `welcomePage.progress.foreground` at 100%).
+  Together they show the saturation ladder that carries Dark 2026's UI hierarchy, rotated
+  to hue 145 intact.
+
+## [0.0.2] - 2026-07-17
 
 ### Changed
 

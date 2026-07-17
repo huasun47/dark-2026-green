@@ -8,13 +8,22 @@ Same light, different hue. That is the whole idea.
 
 ---
 
-## Screenshot
+## Screenshots
 
 ![Dark 2026 Green — a selection in the theme's own colour code, showing the green selection highlight against Dark 2026's untouched syntax colours](https://raw.githubusercontent.com/huasun47/dark-2026-green/main/images/screenshot.png)
 
 The green behind the selected lines is `editor.selectionBackground` — one of the 61 rotated
 UI colours. Everything carrying syntax colour (`const` red, strings blue, types teal) is
 Dark 2026, untouched. That contrast is the whole point.
+
+![Dark 2026 Green across the full workbench — green buttons, progress bars and badges against unchanged neutral chrome](https://raw.githubusercontent.com/huasun47/dark-2026-green/main/images/screenshot-workbench.png)
+
+Across the workbench the accent turns up on other rungs of the same ladder. The buttons
+(`button.background`) sit at 60% saturation; the welcome-page progress bars
+(`welcomePage.progress.foreground`) at 100%; the selection above, at 54%. One hue, several
+saturations — that ladder *is* Microsoft's hierarchy, rotated over intact rather than
+rebuilt. Meanwhile the greys, the panel chrome and the editor background are exactly as
+Dark 2026 ships them.
 
 ---
 
